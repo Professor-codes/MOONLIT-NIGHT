@@ -6,6 +6,6 @@
 </div>
 
 <div align="center">
-![moonlit-night](https://github.com/Professor-codes/MOONLIT-NIGHT/assets/126326997/8a995e1a-724d-4bba-a2d9-5f23e1fde705)
+	https://github.com/Professor-codes/MOONLIT-NIGHT/assets/126326997/3a2c01a1-1854-47bb-8f3a-8ddf7de3d305
 </div>
 
