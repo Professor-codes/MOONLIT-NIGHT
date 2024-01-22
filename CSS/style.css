@@ -1,0 +1,268 @@
+body {
+    background-color: rgb(1, 1, 41);
+    animation: body 12s infinite;
+}
+
+.container {
+    height: 300px;
+    width: 300px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    top: 120px;
+    background-image: url('/Image/Image1.jpg');
+    background-size: cover;
+    animation: container 12s infinite alternate linear;
+}
+
+@keyframes container {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.1;
+    }
+}
+
+
+.moon {
+    animation: moon 12s infinite alternate linear;
+    overflow: hidden;
+}
+
+@keyframes moon {
+    0% {
+        transform: translateY(0px) translateX(0px) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(120px) translateX(120px) rotate(360deg);
+        opacity: 0;
+        background-color: rgb(1, 1, 31);
+        box-shadow: none;
+    }
+}
+
+
+.mooncircle {
+    height: 35px;
+    width: 35px;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    border-radius: 50%;
+    background-color: rgb(202, 199, 199);
+    box-shadow: rgb(255, 255, 255) 0px 0px 90px;
+    box-shadow: rgb(255, 255, 255)0px 0px 15px;
+}
+
+.star-f {
+    height: 40px;
+    width: 1px;
+    background-color: white;
+
+
+    transform: skew(35deg, 0deg);
+    position: relative;
+    left: 58px;
+    top: 10px;
+
+    animation: star-f 6s infinite;
+}
+
+@keyframes star-f {
+    0% {
+        left: 58px;
+        top: 10px;
+        height: 0px;
+        opacity: 1;
+        box-shadow: rgb(255, 255, 255) 0px 54px 55px, rgb(255, 255, 255) 0px -12px 30px, rgb(255, 255, 255) 0px 4px 6px, rgb(255, 255, 255) 0px 12px 13px, rgb(255, 255, 255) 0px -3px 5px;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    50% {
+        height: 30px;
+    }
+
+    100% {
+        opacity: 0;
+        top: 200px;
+        left: 200px;
+    }
+}
+
+.star-s {
+    height: 40px;
+    width: 1px;
+    background-color: white;
+
+
+    transform: skew(35deg, 0deg);
+    position: relative;
+    margin: auto;
+    left: 9px;
+    top: -178px;
+
+    animation: star-s 5s infinite;
+}
+
+@keyframes star-s {
+    0% {
+        left: 9px;
+        top: -178px;
+        height: 0px;
+        box-shadow: rgb(255, 255, 255) 0px 54px 55px, rgb(255, 255, 255) 0px -12px 30px, rgb(255, 255, 255) 0px 4px 6px, rgb(255, 255, 255) 0px 12px 13px, rgb(255, 255, 255) 0px -3px 5px;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    50% {
+        height: 30px;
+    }
+
+
+    100% {
+        opacity: 0;
+        top: 200px;
+        left: 200px;
+    }
+}
+
+.star {
+    z-index: 2;
+    position: absolute;
+    top: 184px;
+    left: 842px;
+    background-image: url('https://ivang-design.com//svg-load/air/star.png');
+    background-size: 15px 15px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.4;
+    animation: starShine 3.5s linear infinite;
+    -webkit-transition: all 1200ms linear;
+    transition: all 1200ms linear;
+}
+
+.star.second {
+    top: 215px;
+    left: 680px;
+    animation-delay: 1s;
+}
+
+.star.third {
+    top: 205px;
+    left: 779px;
+    animation-delay: 1.4s;
+}
+
+.star.fourth {
+    top: 145px;
+    left: 772px;
+    animation-delay: 1.8s;
+}
+
+.star.fifth {
+    top: 163px;
+    left: 716px;
+    animation-delay: 2.2s;
+}
+
+.sixth {
+    height: 16px;
+    width: 16px;
+    z-index: 2;
+    position: absolute;
+    top: 209px;
+    left: 878px;
+    background-image: url('https://ivang-design.com//svg-load/air/star.png');
+    background-size: 15px 15px;
+    opacity: 0.4;
+    animation: starShine 3.5s linear infinite;
+}
+
+.seventh {
+    height: 16px;
+    width: 16px;
+    z-index: 2;
+    position: absolute;
+    top: 143px;
+    left: 818px;
+    background-image: url('https://ivang-design.com//svg-load/air/star.png');
+    background-size: 15px 15px;
+    opacity: 0.4;
+    animation: starShine 3.5s linear infinite;
+    animation-delay: 6s;
+}
+
+.eight {
+    height: 16px;
+    width: 16px;
+    z-index: 2;
+    position: absolute;
+    top: 228px;
+    left: 738px;
+    background-image: url('https://ivang-design.com//svg-load/air/star.png');
+    background-size: 15px 15px;
+    opacity: 0.4;
+    animation: starShine 3.5s linear infinite;
+    animation-delay: 3;
+}
+
+.nine {
+    height: 16px;
+    width: 16px;
+    z-index: 2;
+    position: absolute;
+    top: 195px;
+    left: 646px;
+    background-image: url('https://ivang-design.com//svg-load/air/star.png');
+    background-size: 15px 15px;
+    opacity: 0.4;
+    animation: starShine 3.5s linear infinite;
+}
+
+.ten {
+    height: 16px;
+    width: 16px;
+    z-index: 2;
+    position: absolute;
+    top: 131px;
+    left: 723px;
+    background-image: url('https://ivang-design.com//svg-load/air/star.png');
+    background-size: 15px 15px;
+    opacity: 0.4;
+    animation: starShine 3.5s linear infinite;
+}
+
+@keyframes starShine {
+    0% {
+        transform: scale(0.3) rotate(0deg);
+        opacity: 0.4;
+    }
+
+    25% {
+        transform: scale(1) rotate(360deg);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(0.3) rotate(720deg);
+        opacity: 0.4;
+    }
+
+    100% {
+        transform: scale(0.3) rotate(0deg);
+        opacity: 0.4;
+    }
+}
