@@ -5,7 +5,6 @@
 	<img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" title="css" alt="css" width="60" height="60"/>&nbsp;
 </div>
 
-<div align="center">
-	https://github.com/Professor-codes/MOONLIT-NIGHT/assets/126326997/3a2c01a1-1854-47bb-8f3a-8ddf7de3d305
-</div>
+# Project preview
+![moonlit-night](https://github.com/Professor-codes/MOONLIT-NIGHT/assets/126326997/d2ce1113-def0-43d8-a742-455306296020)
 
